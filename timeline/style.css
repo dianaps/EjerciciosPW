@@ -1,0 +1,23 @@
+body{
+    margin: 100px 50px;
+    text-align: center;
+    background-color: #dbf6e9af;
+}
+
+.decade{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color:#9ddfd3;
+    margin: 15px 30px;
+    padding: 2%;
+    text-align: center;
+}
+
+.d{
+    font-size:large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+}
