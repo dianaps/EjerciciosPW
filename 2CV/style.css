@@ -82,7 +82,13 @@ h3, a{
 }
 
 .logo{
-  width: 15%;
+  width: 5%;
+}
+
+.yo{
+  width: 25%;
+  border-radius: 10%;
+  margin: 50px auto;
 }
 
 .coding-skill{
@@ -140,10 +146,6 @@ hr{
   height:2px;
   width: 30%;
   border-width: 10px;
-}
-
-table{
-  margin: 15px auto;
 }
 
 .table{
