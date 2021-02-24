@@ -141,3 +141,11 @@ hr{
   width: 30%;
   border-width: 10px;
 }
+
+table{
+  margin: 15px auto;
+}
+
+.table{
+  margin: 50px auto;
+}
