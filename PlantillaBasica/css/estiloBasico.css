@@ -56,46 +56,46 @@ body {
     Nota: los elementos después de un elemento flotante fluirán a su alrededor.
     Para evitar esto, use la propiedad clear o el clearfix hack
     */
-    #seccion {
-        float: left;
-        width: 660px;
-        margin: 20px;
-    }
+#seccion {
+    float: left;
+    width: 660px;
+    margin: 20px;
+}
     
-    #columna {
-        float: left;
-        width: 220px;
-        margin: 20px 0px;
-        padding: 20px;
-        background: linear-gradient(126deg, #004373 23%, #24335b 77%);;
-        color: white;
-    }
+#columna {
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: linear-gradient(126deg, #004373 23%, #24335b 77%);;
+    color: white;
+}
     /*Footer*/
-    #pie {
-        clear: both;/* No permita elementos flotantes en el lado izquierdo
+#pie {
+    clear: both;/* No permita elementos flotantes en el lado izquierdo
                         o derecho de un elemento <p> especificado:*/
-        text-align: center;
-        padding: 20px;
-        border-top: 2px solid #ffff;
-    }
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #ffff;
+}
     /*imagenes*/
-    #imagen{
-      width: 20%;
-      height: 20%;
-    }
+#imagen{
+    width: 20%;
+    height: 20%;
+}
     
-    #imagen2{
-      width: 15%;
-      height: 10%;
-    }
+#imagen2{
+    width: 15%;
+    height: 10%;
+}
     
     /*Agregando los últimos toques a nuestro diseño básico.*/
-    article {
+article {
     background: #fbfbfb;
     border: 1px solid #9999993d;
     padding: 20px;
     margin-bottom: 15px;
-    }
+}
     
     article footer {
     text-align: right;
@@ -113,3 +113,13 @@ body {
     figcaption {
     font: italic 14px verdana, sans-serif;
     }
+
+/*hr{
+    border-style: dotted none none;
+    border-color: #dfecea;
+    height:2px;
+    width: 100%;
+    border-width: 100%;
+    
+}
+*/
