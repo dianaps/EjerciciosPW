@@ -86,7 +86,9 @@ h3, a{
 }
 
 .yo{
-  width: 25%;
+  /*width: 25%;
+  */
+  width: 207px;
   border-radius: 10%;
   margin: 50px auto;
 }
@@ -150,4 +152,9 @@ hr{
 
 .table{
   margin: 50px auto;
+}
+
+.siguiente{
+  position: absolute;
+  right: 0;
 }
