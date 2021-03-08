@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto&display=swap');
 @import url(fontello.css);
 @import url(menu.css);
 @import url(banner.css);
@@ -7,11 +8,11 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    /*Añadir fuente en import*/
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'PT Sans', Courier, monospace;
 }
 
 header{
@@ -19,7 +20,6 @@ header{
     height: 50px;
     background: #333;
     color: #fff;
-
     position:fixed;
     top: 0;
     left: 0;

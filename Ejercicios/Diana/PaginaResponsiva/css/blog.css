@@ -16,3 +16,13 @@
     width: 100%;
     max-width: 280px;
 }
+
+#blog img:hover{
+    transform: scale(1.1);
+}
+
+
+#logo{
+    position: relative;
+    width: 75%;
+}
