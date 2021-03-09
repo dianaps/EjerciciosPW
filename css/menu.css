@@ -74,3 +74,8 @@
     background-color: #1ea3f0c4;
     font-weight: bolder;
 }
+
+
+#menu-principal li.last{
+    float: right;
+}
