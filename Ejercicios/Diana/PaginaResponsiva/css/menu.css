@@ -17,7 +17,7 @@ header label{
     height: 100vh;
     background: rgba(5, 5, 5, 0.781);
     transition: all 0.5s;
-    transform: translateX(-100%);
+    transform: translateX(200%);
 }
 
 .menu a{
