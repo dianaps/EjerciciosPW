@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+@import url(/css/menu.css);
 
 body {
     background-color: hsl(198, 50%, 85%);
