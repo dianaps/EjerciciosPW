@@ -89,11 +89,3 @@
 #menu-principal li.last{
     float: right;
 }
-
-@media (max-width:460px){
-    #menu-principal{
-    }
-    
-    #menu-principal li a{
-    }
-}
