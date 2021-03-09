@@ -3,7 +3,7 @@
 @import url(menu.css);
 @import url(banner.css);
 @import url(blog.css);
-
+@import url(/css/menu.css);
 
 *{
   margin: 3;
