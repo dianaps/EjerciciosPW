@@ -1,4 +1,6 @@
-header{
+@import url(fontello.css);
+
+#menu-principal{
     width: 100%;
     height: 50px;
     background: #333;
@@ -7,9 +9,19 @@ header{
     top: 0;
     left: 0;
     z-index: 100;
+    /*sobreescribiendo para otros css*/
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    display: block;
 }
 
-ul {
+#menu-principal ul {
+    inherits: none;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,12 +29,12 @@ ul {
     background-color: #181818;
 }
 
-li {
+#menu-principal li {
     cursor: pointer;
     float: left;
 }
 
-li a, .dropbtn {
+#menu-principal li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -30,16 +42,16 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+#menu-principal li a:hover, .dropdown:hover .dropbtn {
     background-color: #069df562;
     
 }
 
-li.dropdown {
+#menu-principal li.dropdown {
     display: inline-block;
 }
 
-.dropdown-content {
+#menu-principal .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -48,7 +60,7 @@ li.dropdown {
     z-index: 1;
 }
 
-.dropdown-content a {
+#menu-principal .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -56,16 +68,15 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {
-    size: ;
+#menu-principal .dropdown-content a:hover {
     background-color: #70696962
 }
 
-.dropdown:hover .dropdown-content {
+#menu-principal .dropdown:hover .dropdown-content {
     display: block;
 }
 
-.active{
+#menu-principal .active{
     background-color: #069df5c4;
     font-weight: bolder;
 }

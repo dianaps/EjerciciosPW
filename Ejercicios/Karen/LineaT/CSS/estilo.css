@@ -1,0 +1,62 @@
+body {
+    background-color: hsl(184, 72%, 77%);
+	  background-image: url("https://10wallpaper.com/wallpaper/1366x768/1208/Aesthetic_Dream_Space_HD_Desktop_wallpaper_03_1366x768.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: oblique;
+    text-transform: uppercase;
+	  color: white;
+}
+
+h2 {
+    color: aqua;
+    font-size: 2rem;
+}
+
+h3 {
+    color: yellow;
+    font-size: 1.5rem;
+}
+
+p {
+    text-align: justify;
+    color: white;
+}
+
+a {
+    font-size: 3rem;
+	font-family: serif;
+	color: white;
+
+}
+
+blockquote {
+    font-style: oblique;
+}
+
+#uno{
+    background-color: hsl(39, 83%, 46%);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+pre {
+    background-color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+address {
+    font-family: serif;
+    font-style: normal;
+    text-align: right;
+}

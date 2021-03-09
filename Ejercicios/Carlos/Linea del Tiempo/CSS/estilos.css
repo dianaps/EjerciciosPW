@@ -1,0 +1,64 @@
+
+
+body {
+    background-color: hsl(184, 72%, 77%);
+	background-image: url("https://images.pexels.com/photos/774548/pexels-photo-774548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	background: cover;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: oblique;
+    text-transform: uppercase;
+	color: black;
+}
+
+h2 {
+    color: black;
+    font-size: 2rem;
+}
+
+h3 {
+    color: yellow;
+    font-size: 1.5rem;
+}
+
+
+img{
+	display: block;
+	margin: auto;
+}
+
+a {
+    font-size: 3rem;
+	font-family: serif;
+	color: blue;
+
+}
+
+blockquote {
+    font-style: oblique;
+}
+
+#uno{
+    background-color: hsl(39, 83%, 46%);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+pre {
+    background-color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+address {
+    font-family: serif;
+    font-style: normal;
+    text-align: right;
+}

@@ -1,0 +1,30 @@
+body {
+  background-color: #6EFAFB;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 2rem;
+}
+
+p.intro {
+  color: white;
+}
+
+summary {
+  align-items: center;
+  font-size: 4rem;
+}
+
+span.par {
+  background-color: white;
+}
+
+span.impar {
+  background-color: hsl(325, 100%, 90%);
+}

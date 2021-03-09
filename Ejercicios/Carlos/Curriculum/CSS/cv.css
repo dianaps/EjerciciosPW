@@ -1,0 +1,64 @@
+
+body {
+    background-color: hsl(184, 72%, 77%);
+	background-image: url("https://img.freepik.com/vector-gratis/diseno-fondo-blanco-estilo-perspectiva-3d-forma-hexagonal_1017-27558.jpg?size=626&ext=jpg");
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	background: cover;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+h1 {
+    font-family: 'Shippori Mincho', serif;
+	font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+	color: white;
+	background-color: hsl(198, 50%, 65%);
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+    color: lightseagreen;
+    font-size: 2rem;
+	background-color: hsl(184, 100%, 94%);
+	text-align: center;
+}
+
+h3 {
+	font-family: Comfortaa;
+    color: DeepSkyBlue;
+    font-size: 3rem;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+	font-size: 1.4rem;
+	text-align: justify;
+}
+
+a {
+    font-size: 3rem;
+	font-family: serif;
+	color: white;
+
+}
+
+#uno{
+    background-color: hsl(39, 83%, 46%);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+pre {
+    background-color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+address {
+    font-family: serif;
+    font-style: normal;
+    text-align: right;
+}

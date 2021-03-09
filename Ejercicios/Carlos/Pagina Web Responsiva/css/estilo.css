@@ -1,0 +1,57 @@
+
+@import url('https://fonts.google.com/specimen/Mulish?preview.text=Hypercars&preview.text_type=custom#standard-styles');
+@import url(menu.css);
+@import url(banner.css);
+@import url(blog.css);
+
+
+*{
+  margin: 3;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4{
+  font-family: 'Mulish', sans-serif;
+}
+
+header{
+  width:100%;
+  height:65px;
+  background-image: linear-gradient(45deg, blue, skyblue);
+  color: #fff;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index:100;
+}
+
+.contenedor{
+  width: 95%;
+  margin:auto;
+
+}
+
+h1{
+  float:left;
+}
+
+h4{
+  font-size: 24px;
+}
+p{
+  font-size: 20px;
+}
+header .contenedor{
+  display: table;
+}
+
+section{
+  width:100%;
+  margin-bottom: 25px;
+}
+
+#Hypercars{
+  font-size: 24px;
+  text-align: center;
+}
